@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-10-08T21:56:14Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 0.847044,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "cc2652r_rev_e"
+        },
+        "Owner": "D A <deaxx13@gmail.com>",
+        "Size": {
+            "X": 26.416,
+            "Y": 16.8148
+        }
+    }
+}
