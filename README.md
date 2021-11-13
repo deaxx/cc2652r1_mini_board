@@ -1,2 +1,2 @@
-# cc2652r_board_design
-Errors are possible. This is not the final version.
+# cc2652r_mini_board_design
+This is final version.
