@@ -6190,29 +6190,25 @@ CONN_06
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="E1" library="SparkFun-RF" library_urn="urn:adsk.eagle:library:531" deviceset="ANTENNA-GROUNDED" device="TRACE-15.2MM" package3d_urn="urn:adsk.eagle:package:39575/1"/>
-<part name="L3" library="discretes-dev" deviceset="IND0402" device="IND0402"/>
-<part name="C3" library="discretes-dev" deviceset="CAP0402" device=""/>
-<part name="C4" library="discretes-dev" deviceset="CAP0402" device=""/>
-<part name="C9" library="discretes-dev" deviceset="CAP0402" device=""/>
-<part name="C10" library="discretes-dev" deviceset="CAP0402" device=""/>
-<part name="C19" library="discretes-dev" deviceset="CAP0402" device=""/>
-<part name="C21" library="discretes-dev" deviceset="CAP0402" device=""/>
+<part name="L3" library="discretes-dev" deviceset="IND0402" device="IND0402" value="2.4nH"/>
+<part name="C3" library="discretes-dev" deviceset="CAP0402" device="" value="1pF"/>
+<part name="C4" library="discretes-dev" deviceset="CAP0402" device="" value="12pF"/>
+<part name="C9" library="discretes-dev" deviceset="CAP0402" device="" value="1pF"/>
+<part name="C10" library="discretes-dev" deviceset="CAP0402" device="" value="1pF"/>
+<part name="C19" library="discretes-dev" deviceset="CAP0402" device="" value="12pF"/>
+<part name="C21" library="discretes-dev" deviceset="CAP0402" device="" value="1.8pF"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="L4" library="discretes-dev" deviceset="IND0402" device="IND0402"/>
-<part name="L5" library="discretes-dev" deviceset="IND0402" device="IND0402"/>
-<part name="L6" library="discretes-dev" deviceset="IND0402" device="IND0402"/>
+<part name="L4" library="discretes-dev" deviceset="IND0402" device="IND0402" value="2.4nH"/>
+<part name="L5" library="discretes-dev" deviceset="IND0402" device="IND0402" value="2nH"/>
+<part name="L6" library="discretes-dev" deviceset="IND0402" device="IND0402" value="2nH"/>
 <part name="TP1" library="testpad" deviceset="TP" device="TP06SQ" package3d_urn="urn:adsk.eagle:package:27952/1"/>
-<part name="C20" library="discretes-dev" deviceset="CAP0402" device=""/>
-<part name="C22" library="discretes-dev" deviceset="CAP0402" device=""/>
-<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP2" library="testpad" deviceset="TPSQ" device="TP15SQ" package3d_urn="urn:adsk.eagle:package:27975/1" value="TPSQTP15SQ"/>
 <part name="BTN1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/1"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R2" library="discretes-dev" deviceset="RES0402" device=""/>
+<part name="R2" library="discretes-dev" deviceset="RES0402" device="" value="2.2k"/>
 <part name="G" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_05" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38110/1"/>
@@ -6365,8 +6361,8 @@ CONN_06
 <instance part="GND26" gate="1" x="134.62" y="55.88" smashed="yes">
 <attribute name="VALUE" x="132.08" y="53.34" size="1.778" layer="96"/>
 </instance>
-<instance part="E1" gate="G$1" x="307.34" y="83.82" smashed="yes">
-<attribute name="NAME" x="310.388" y="78.74" size="1.778" layer="95" font="vector"/>
+<instance part="E1" gate="G$1" x="312.42" y="83.82" smashed="yes">
+<attribute name="NAME" x="315.468" y="78.74" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="L3" gate="G$1" x="226.06" y="60.96" smashed="yes">
 <attribute name="NAME" x="218.435559375" y="63.50148125" size="2.54148125" layer="95"/>
@@ -6398,8 +6394,8 @@ CONN_06
 <instance part="GND5" gate="1" x="259.08" y="55.88" smashed="yes">
 <attribute name="VALUE" x="256.54" y="53.34" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="309.88" y="68.58" smashed="yes">
-<attribute name="VALUE" x="307.34" y="66.04" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="314.96" y="68.58" smashed="yes">
+<attribute name="VALUE" x="312.42" y="66.04" size="1.778" layer="96"/>
 </instance>
 <instance part="L4" gate="G$1" x="210.82" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="210.81851875" y="88.895559375" size="2.54148125" layer="95"/>
@@ -6410,25 +6406,13 @@ CONN_06
 <instance part="L6" gate="G$1" x="271.78" y="71.12" smashed="yes">
 <attribute name="NAME" x="269.235559375" y="73.66148125" size="2.54148125" layer="95"/>
 </instance>
-<instance part="TP1" gate="G$1" x="314.96" y="81.28" smashed="yes">
-<attribute name="NAME" x="313.69" y="82.55" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="316.23" y="80.01" size="1.778" layer="97"/>
+<instance part="TP1" gate="G$1" x="320.04" y="81.28" smashed="yes">
+<attribute name="NAME" x="318.77" y="82.55" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="321.31" y="80.01" size="1.778" layer="97"/>
 </instance>
-<instance part="C20" gate="G$1" x="195.58" y="68.58" smashed="yes">
-<attribute name="NAME" x="197.104" y="70.231" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="C22" gate="G$1" x="205.74" y="53.34" smashed="yes">
-<attribute name="NAME" x="207.264" y="54.991" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="GND6" gate="1" x="205.74" y="45.72" smashed="yes">
-<attribute name="VALUE" x="203.2" y="43.18" size="1.778" layer="96"/>
-</instance>
-<instance part="GND20" gate="1" x="195.58" y="76.2" smashed="yes" rot="R180">
-<attribute name="VALUE" x="198.12" y="78.74" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="TP2" gate="G$1" x="320.04" y="81.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="322.58" y="85.725" size="1.778" layer="95" rot="R180"/>
-<attribute name="TP_SIGNAL_NAME" x="317.5" y="82.55" size="1.778" layer="97" rot="R180"/>
+<instance part="TP2" gate="G$1" x="325.12" y="81.28" smashed="yes" rot="R180">
+<attribute name="NAME" x="327.66" y="85.725" size="1.778" layer="95" rot="R180"/>
+<attribute name="TP_SIGNAL_NAME" x="322.58" y="82.55" size="1.778" layer="97" rot="R180"/>
 </instance>
 <instance part="BTN1" gate="G$1" x="86.36" y="38.1" smashed="yes">
 <attribute name="NAME" x="86.36" y="42.926" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -6462,20 +6446,15 @@ CONN_06
 <wire x1="195.58" y1="58.42" x2="195.58" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="X48M_P"/>
 <wire x1="195.58" y1="60.96" x2="187.96" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="C20" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="64.77" x2="195.58" y2="60.96" width="0.1524" layer="91"/>
-<junction x="195.58" y="60.96"/>
 </segment>
 </net>
 <net name="X48M_N" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="X48M_N"/>
 <wire x1="187.96" y1="63.5" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="63.5" x2="205.74" y2="57.15" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="63.5" x2="205.74" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="G$1" pin="3"/>
 <wire x1="205.74" y1="58.42" x2="203.2" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="58.42" x2="205.74" y2="57.15" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="X32K_Q2" class="0">
@@ -6703,23 +6682,13 @@ CONN_06
 </segment>
 <segment>
 <pinref part="E1" gate="G$1" pin="GND"/>
-<wire x1="309.88" y1="73.66" x2="309.88" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="73.66" x2="314.96" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="274.32" y1="43.18" x2="279.4" y2="43.18" width="0.1524" layer="91"/>
 <label x="274.32" y="43.18" size="1.778" layer="95"/>
 <pinref part="J3" gate="G$1" pin="10"/>
-</segment>
-<segment>
-<pinref part="C22" gate="G$1" pin="2"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="205.74" y1="49.53" x2="205.74" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C20" gate="G$1" pin="1"/>
-<pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="195.58" y1="72.39" x2="195.58" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BTN1" gate="G$1" pin="1"/>
@@ -6850,9 +6819,9 @@ CONN_06
 <net name="N$9" class="0">
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="300.99" y1="71.12" x2="307.34" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="E1" gate="G$1" pin="SIGNAL"/>
-<wire x1="307.34" y1="71.12" x2="307.34" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="300.99" y1="71.12" x2="312.42" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="71.12" x2="312.42" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -7260,6 +7229,11 @@ CONN_06
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="G" gate="G$1" pin="A"/>
 <wire x1="46.99" y1="38.1" x2="50.8" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<wire x1="205.74" y1="49.53" x2="205.74" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
