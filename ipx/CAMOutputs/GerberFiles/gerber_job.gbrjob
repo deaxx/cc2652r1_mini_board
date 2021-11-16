@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2021-11-16T20:50:45Z",
+        "CreationDate": "2021-11-16T20:50:01Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,11 +13,11 @@
         "BoardThickness": 0.847044,
         "LayerNumber": 4,
         "Name": {
-            "ProjectId": "cc2652r_rev_e"
+            "ProjectId": "cc2652r_rev_e_ipx"
         },
         "Owner": "D A <deaxx13@gmail.com>",
         "Size": {
-            "X": 26.3779,
+            "X": 23.4569,
             "Y": 16.764
         }
     }
