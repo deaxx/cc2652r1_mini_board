@@ -1,2 +1,2 @@
-# cc2652r_mini_board_design
+# cc2652r_board
 This is final version.
